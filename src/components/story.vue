@@ -1,15 +1,13 @@
 <template>
   <section class="fl w-100">
     <siteheader/>
-    <main class="">
-        <div class="cf">
-            <div class="cf w-100 bg-black-70 fl cover" style="background-attachment:fixed" :style="{backgroundImage:'url('+require('@/assets/img/bg2.jpg')+')'}">
-                    <div class="dt vh-50 w-70 center">
-                        <div class="dtc v-mid pt4">
-                            
-                        </div>
-                    </div>
+        <div class="fl h3 dn-l dib w-100"></div>
+        <div class="cf w-100 cover" :style="{backgroundImage:'url('+require('@/assets/img/background5.png')+')'}">
+            <div class="dt vh-50 w-70 center">
+                <div class="dtc v-mid">
+                
                 </div>
+            </div>
         </div>
         
         <div class="cf ph3 ph5-ns center mid-gray tc pv5">
@@ -49,14 +47,14 @@
         </div>
 
         
-        <div class=" w-100 center pa4 pa5-m pa6-l">
+        <div class=" w-100 mw8  center">
             
-            <div class="dtc v-mid pt5">
-                <div class="w-50-l w-100 fl">
+            <div class="dtc v-mid  pt5">
+                <div class="w-50-l w-100 fl pa2 pa0-l">
                     <img src="@/assets/img/bg1.jpg" class="dib  " >          
                 </div>
-                <div class="w-50-l pl4-l mid-gray w-100 fl">
-                    <p class="f3 navy b">FEED YOUR ADDICTION WITH A SOCK SUBSCRIPTION.</p>
+                <div class="w-50-l pl4-l pa2 pa0-l mid-gray w-100 fl">
+                    <div class="f3 navy b">FEED YOUR ADDICTION WITH A SOCK SUBSCRIPTION.</div>
                     <p class="pb4 lh-copy f5">A Sock Fancy sock subscription features a huge selection of unique, awe-inspiring, and sometimes bizarre socks. 
                         But don’t let our whimsical nature fool you - we take quality and comfort very seriously. All our socks are made from high
                         quality cotton blends on a 200-count needle machine, guaranteed to last numerous slides down the hallway, Tom Cruise style. 
@@ -72,7 +70,7 @@
                     
                     <div class="dt w-100 center">
                         <div class="fl pa2 tc w-third pv4-ns pv2">
-                            <div class="tc washed-yellow">
+                            <div class="tc gray">
                                 <i class="fas f1 fa-socks"></i>
                             </div>
                             <div class="tc pa2">
@@ -81,7 +79,7 @@
                         </div>
 
                         <div class="fl pa2 tc w-third pv4-ns pv2">
-                            <div class="tc washed-yellow">
+                            <div class="tc gray">
                                 <i class="fas f1 fa-sliders-h"></i>
                             </div>
                             <div class="tc pa2">
@@ -90,7 +88,7 @@
                         </div>
 
                         <div class="fl tc w-third pv4-ns pv2">
-                            <div class="tc washed-yellow">
+                            <div class="tc gray">
                                 <i class="fas f1 fa-box-open"></i>
                             </div>
                             <div class="tc pa2">
@@ -135,11 +133,13 @@
                     </div>
                 </div>
                 <div class="w-50-l w-100 fl">
-                    <div class="aspect-ratio aspect-ratio--16x9 ">
-                        <div class="aspect-ratio--object cover" style="background:url(http://mrmrs.github.io/photos/001.jpg) center;"></div>
-                    </div>
-                    <div class="aspect-ratio aspect-ratio--16x9">
-                        <div class="aspect-ratio--object cover" style="background:url(http://mrmrs.github.io/photos/001.jpg) center;"></div>
+                    <div class="mw6">
+                        <div class="aspect-ratio aspect-ratio--16x9">
+                            <div class="aspect-ratio--object cover" :style="{backgroundImage:'url('+require('@/assets/img/background2.png')+')'}"></div>
+                        </div>
+                        <div class="aspect-ratio aspect-ratio--16x9">
+                            <div class="aspect-ratio--object cover" :style="{backgroundImage:'url('+require('@/assets/img/background4.png')+')'}"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -215,7 +215,6 @@
         </p>
         
       
-    </main>
     <sitefooter/>
   </section>
 </template>

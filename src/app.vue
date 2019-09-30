@@ -23,9 +23,9 @@ module.exports = {
 @import "assets/css/fontawesomepro.css";
 @import "assets/css/custom.min.css";
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Work Sans", serif;
 }
 /* body {font-family: 'Titillium Web', sans-serif;} */
 </style>

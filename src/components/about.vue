@@ -22,7 +22,7 @@
                     <div class="fl pa2 tc w-100 w-50-m w-third-l">
                         <article class="mw6-l center">
                             <div class="tc">
-                                <img src="@/assets/img/customcakes.jpg" class="h3 w3 dib br3" title="">
+                                <img src="@/assets/img/background1.png" class="h3 w3 dib br3" title="">
                             </div>
                             <div class="br3 pa2">
                                 <h1 class="f3">Custom Cakes</h1>
@@ -36,7 +36,7 @@
                     <div class="fl pa2 tc w-100 w-50-m w-third-l">
                         <article class="mw6-l center">
                             <div class="tc">
-                                <img src="@/assets/img/pasteries.jpg" class="h3 w3 dib br3" title="">
+                                <img src="@/assets/img/background1.png" class="h3 w3 dib br3" title="">
                             </div>
                             <div class="br3 pa2">
                                 <h1 class="f3">Pastries</h1>
@@ -50,7 +50,7 @@
                     <div class="fl pa2 tc w-100 w-third-l">
                         <article class="mw6-l center">
                             <div class="tc">
-                                <img src="@/assets/img/cheesecakes.jpg" class="h3 w3 dib br3" title="">
+                                <img src="@/assets/img/background1.png" class="h3 w3 dib br3" title="">
                             </div>
                             <div class="br3 pa2">
                                 <h1 class="f3">Cheesecakes</h1>

@@ -5,7 +5,7 @@
 
       <article class="pa4 cf center w-40-l w-90-ns w-100 black-80 ph2">
         <div class="v-mid tc white ph2-l">                   
-          <img src="@/assets/img/dtcblack.png" class="pa2 w4 h3 tc " />
+          <img src="@/assets/img/logo.png" class="pa2 w4 h3 tc " />
 
           <div class="cf bg-transparent ba b--white-10 br3 center pa2 " >
 

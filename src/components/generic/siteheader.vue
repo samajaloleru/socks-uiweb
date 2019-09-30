@@ -6,11 +6,11 @@
 
         </div>
         <nav class="tc mw8 center mt3">
-          <router-link to="/"  class="link washed-yellow b f6 f3-l dib pa3 ph4-l" >Home</router-link>
-          <router-link to="/story"  class="link washed-yellow b f6 f3-l dib pa3 ph4-l" >Our Story</router-link>
-          <router-link to="/product"  class="link washed-yellow b f6 f3-l dib pa3 ph4-l" >Products</router-link>
-          <router-link to="/blog"  class="link washed-yellow b f6 f3-l dib pa3 ph4-l" >Blog</router-link>
-          <router-link to="/custom"  class="link washed-yellow b f6 f3-l dib pa3 ph4-l" >Custom Socks</router-link>
+          <router-link to="/"  class="no-underline dim washed-yellow b f6 f3-l dib pa3 ph4-l" >Home</router-link>
+          <router-link to="/story"  class="no-underline dim washed-yellow b f6 f3-l dib pa3 ph4-l" >Our Story</router-link>
+          <router-link to="/product"  class="no-underline dim washed-yellow b f6 f3-l dib pa3 ph4-l" >Products</router-link>
+          <router-link to="/blog"  class="no-underline dim washed-yellow b f6 f3-l dib pa3 ph4-l" >Blog</router-link>
+          <router-link to="/custom"  class="no-underline dim washed-yellow b f6 f3-l dib pa3 ph4-l" >Custom Socks</router-link>
         </nav>
       </nav>
 
