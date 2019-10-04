@@ -5,9 +5,13 @@
         <div class="cf w-100 cover" :style="{backgroundImage:'url('+require('@/assets/img/background5.png')+')'}">
             <div class="dt vh-50 w-70 center">
                 <div class="dtc v-mid">
-                
+                    
                 </div>
             </div>
+        </div>
+
+        <div class="cf mw8 center bg-black">
+            <lingallery :items="items"/>
         </div>
         
         <div class="cf ph3 ph5-ns center mid-gray tc pv5">
@@ -48,7 +52,6 @@
 
         
         <div class=" w-100 mw8  center">
-            
             <div class="dtc v-mid  pt5">
                 <div class="w-50-l w-100 fl pa2 pa0-l">
                     <img src="@/assets/img/bg1.jpg" class="dib  " >          
@@ -99,14 +102,12 @@
                 </div>
                 
             </div>
-            
-            
         </div>
 
         <div class="dt w-100 center pa4 pa5-m pa6-l bg-near-white">
             <div class="dtc v-mid">
                 <div class="w-50-l w-100 tc fl mid-gray ph4">
-                    <p class="f2 ttu orange fw6">Our Sock Tech</p>
+                    <div class="f2 ttu orange fw6">Our Sock Tech</div>
                     <div class="pb4 navy">
                         <h1 class="b f4">NO-SLIP CUFF</h1>
                         <p class="tc center measure-narrow">
@@ -225,18 +226,28 @@ import { checkRedirect } from "@/common";
 import notify from "@/components/notify";
 import siteheader from "@/components/generic/siteheader";
 import sitefooter from "@/components/sitefooter";
+import Lingallery from 'lingallery';
 
 export default {
     created(){},
         data() {return{
-        url: "/api/customers",
-        record: {Image:""},
-        notifications:[],
-        isSave:true,
-        tabProps:{},
-        }},
-        components: { notify,siteheader, sitefooter },
-        methods: {
+            url: "/api/customers",
+            record: {Image:""},
+            notifications:[],
+            isSave:true,
+            tabProps:{},
+            items: [{
+            src: 'https://picsum.photos/600/400/?image=0',
+            thumbnail: 'https://picsum.photos/64/64/?image=0',
+            caption: 'Some Caption'
+            },
+            {
+            src: 'https://picsum.photos/600/400/?image=10',
+            thumbnail: 'https://picsum.photos/64/64/?image=10'
+            }]
+            }},
+            components: { notify,siteheader, sitefooter },
+            methods: {
         uploadImageDisplay(field) {
             displayImage(event, this, field)
         },
