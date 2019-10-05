@@ -1,6 +1,20 @@
 <template>
   <section class="fl w-100 bg-dark-red">
     <siteheader/>
+    <carousel class="h5 bg-red">
+      <slide>
+        Slide 1 Content
+      </slide>
+      <slide>
+        Slide 2 Content
+      </slide>
+      <slide>
+        Slide 3 Content
+      </slide>
+      <slide>
+        Slide 4 Content
+      </slide>
+    </carousel>
 
     <div class="cf ph3 ph5-ns center tc pv5">
         <h2 class="f2 orange mt0 mb3">OUR SOCKS</h2>
@@ -143,11 +157,14 @@ import { HTTP } from "@/common";
 import { checkRedirect } from "@/common";
 import siteheader from "@/components/generic/siteheader";
 import sitefooter from "@/components/sitefooter";
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
   components: {
     siteheader,
-    sitefooter
+    sitefooter,
+    Carousel, 
+    Slide
   },
   data() {
     return {
