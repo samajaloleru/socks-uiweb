@@ -77,10 +77,10 @@
       </div>
     </div>
 
-    <div class="cf bg-red w-100 tc pa4-ns pa2">
+    <div class="cf bg-moon-gray w-100 tc pa4-ns pa2">
       <article class="dib mw8 tc pa3">
         <h1 class="f1-l f3 b glow navy tracked-light">SOCK SUBSCRIPTION OPTIONS</h1>
-        <p class="f4 center mid-gray measure lh-copy">
+        <p class="f4 center white measure lh-copy">
           Free worldwide shipping. Easy exchanges. 100% satisfaction guaranteed.
         </p>
       </article>
@@ -133,7 +133,7 @@
         </div>
       </div>
 
-      <div class="w-70 center bb b--gray"></div>
+      <div class="w-70 center bb b--washed-yellow"></div>
     </div>
 
     <div class="dt mw8 pb5 center pa3">

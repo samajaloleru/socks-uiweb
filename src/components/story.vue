@@ -9,10 +9,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="cf mw8 center bg-black">
-            <lingallery :items="items"/>
-        </div>
         
         <div class="cf ph3 ph5-ns center mid-gray tc pv5">
             <h1 class="f1 navy mt0 mb3">OUR STORY</h1>
@@ -226,7 +222,6 @@ import { checkRedirect } from "@/common";
 import notify from "@/components/notify";
 import siteheader from "@/components/generic/siteheader";
 import sitefooter from "@/components/sitefooter";
-import Lingallery from 'lingallery';
 
 export default {
     created(){},
@@ -236,15 +231,6 @@ export default {
             notifications:[],
             isSave:true,
             tabProps:{},
-            items: [{
-            src: 'https://picsum.photos/600/400/?image=0',
-            thumbnail: 'https://picsum.photos/64/64/?image=0',
-            caption: 'Some Caption'
-            },
-            {
-            src: 'https://picsum.photos/600/400/?image=10',
-            thumbnail: 'https://picsum.photos/64/64/?image=10'
-            }]
             }},
             components: { notify,siteheader, sitefooter },
             methods: {
@@ -275,15 +261,3 @@ export default {
     }
 };
 </script>
-<style>
-    input {
-        border-left : none!important;
-        border-right : none!important;
-        border-top : none!important;
-    }
-    input:focus{
-        color : black!important;
-        outline: none!important;
-        border-bottom : 2px solid black;
-    }
-</style>
