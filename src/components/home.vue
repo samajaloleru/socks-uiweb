@@ -6,7 +6,7 @@
       <div class="dt vh-50 w-70 center">
         <div class="dtc v-mid">
           <div class="fl w-100 h2-m"></div>
-          <h1 class="f3 f2-m f1-l ttu mv0 b gray">
+          <h1 class="f3 f2-m f1-l ttu mv0 b washed-yellow">
             YOUR NEW FAVORITE
             <br />SOCK SUBSCRIPTION.
           </h1>
@@ -14,12 +14,12 @@
 
           <div class="mw6 cf pt2 pb2">
             <div class="fl pt2 w-50-ns">
-              <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-washed-yellow mid-gray ba b--white-40">
+              <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-mid-gray white ba b--white-40">
                 Become A Member
               </router-link>
             </div>
             <div class="fl w-50-ns pt2">
-              <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-washed-yellow mid-gray ba b--white-40">
+              <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-mid-gray white ba b--white-40">
                 Gift A Subscription
               </router-link>
             </div>
@@ -68,8 +68,8 @@
             </div>
           </div>
 
-          <div class="fl pl4">
-            <router-link to="story" class="f5 link ph4 pv3 mb2 v-mid fl shadow-1 b tracked ttu br2 bg-orange navy ba b--white-40">
+          <div class="fl pl2">
+            <router-link to="story" class="f5 link ph4 pv3 mb2 v-mid fl shadow-1 fw6 tracked ttu br2 bg-gray white ba b--white-40">
               LETS DO THIS
             </router-link>
           </div>

@@ -1,19 +1,14 @@
 <template>
   <section class="fl w-100 bg-dark-red">
     <siteheader/>
-    <carousel class="h5 bg-red">
-      <slide>
+    <carousel class="cf w-100 h5 bg-red">
+      <slide class="fl w-100">
         Slide 1 Content
       </slide>
-      <slide>
+      <slide class="fl w-100">
         Slide 2 Content
       </slide>
-      <slide>
-        Slide 3 Content
-      </slide>
-      <slide>
-        Slide 4 Content
-      </slide>
+      
     </carousel>
 
     <div class="cf ph3 ph5-ns center tc pv5">
