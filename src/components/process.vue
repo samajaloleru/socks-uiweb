@@ -10,91 +10,29 @@
             </div>
         </div>
         
-        <div class="cf ph3 ph5-ns center mid-gray tc pv5">
-            <h1 class="f1 navy mv0">OUR STORY</h1>
-            <article class="pv2">
-                <div class="f5 f4-ns lh-copy measure center">
-                    Fit Socks launched in 2013 as a simple solution to a growing frustration. 
-                    Finding the perfect pair of comfortable, durable, and awesomely-designed socks was often too difficult, too expensive, and too inconvenient.
-                </div>
-                <p class="f5 f4-ns lh-copy measure center">
-                    Stefan Lewinger and Futhum Tewolde are lifelong friends, who later became roommates when they both moved to Atlanta in 2011. 
-                    Futhum always showed off his socks around their house, but lamented the fact that he often had to settle for poorly made socks 
-                    from big box stores or pay an arm and a leg for a decent pair from the small selections at specialty shops. 
-                    They saw a big opportunity to team up and create something better. Within a few weeks, Stefan launched the site, 
-                    Futhum placed the first sock order, and they began shipping from their living room ping pong table.
-                </p>
-                <p class="f5 f4-ns lh-copy measure center">
-                    Today, Fit Socks has relocated into a 5,000-sq. ft. warehouse and office space in the Cabbagetown neighborhood of 
-                    Atlanta where they have shipped over 500,000 pairs of socks to over 85 countries around the world.
-                </p>
-            </article>
-        </div>
-
-        <div class="dt-ns navy dt--fixed-ns bg-mid-gray">
-            <div class="dtc-ns v-mid tc pv4">
-                <h1 class="b f2">STEFAN LEWINGER</h1>
-                <h1 class="b f4 washed-yellow">Co-Founder | CEO</h1>
-
-            </div>
-            <div class="dtc-ns v-mid tc pv4 ">
-                <img src="@/assets/img/logo.png" class="dib h4 h3-m " >
-            </div>
-            <div class="dtc-ns v-mid tc pv4">
-                <h1 class="b f2">FUTHUM TEWOLDE</h1>
-                <h1 class="b f4 washed-yellow">Co-Founder | COO</h1>
+        <div class="cf ph3 ph5-ns mw8 center mid-gray tc pv5">
+            <div class="f5 f2-ns tracked b lh-copy measure center">
+                <span class="fw6 red">5</span> simple steps to get your custom design idea from your head to the socks.
             </div>
         </div>
 
         
-        <div class=" w-100 mw8  center">
-            <div class="dtc v-mid  pt5">
+        <div class=" w-100 bt ">
+            <div class="mw8 center v-mid pt5">
                 <div class="w-50-l w-100 fl pa2 pa0-l">
                     <img src="@/assets/img/bg1.jpg" class="dib  " >          
                 </div>
-                <div class="w-50-l pl4-l pa2 pa0-l mid-gray w-100 fl">
-                    <div class="f3 navy b">FEED YOUR ADDICTION WITH A SOCK SUBSCRIPTION.</div>
-                    <p class="pb4 lh-copy f5">A Fit Socks sock subscription features a huge selection of unique, awe-inspiring, and sometimes bizarre socks. 
-                        But don’t let our whimsical nature fool you - we take quality and comfort very seriously. All our socks are made from high
-                        quality cotton blends on a 200-count needle machine, guaranteed to last numerous slides down the hallway, Tom Cruise style. 
-                        These soft cotton blends ensure a more comfortable fit and a sock that won’t shrink after a few washes.
-                    </p>
-                    
-                    <div class="pb4 pt2">
-                        <router-link  to="membership" class="f5 link ph4 pv3 mb2 dib shadow-1 fw7 tracked bb bw3 ttu navy br3  b--washed-yellow">
-                            Become A Member
-                        </router-link>
+                <div class="w-50-l pl4-l pa2 pa0-l v-mid mid-gray w-100 fl">
+                    <div class="h3 w-100"></div>
+                    <div class="tc">
+                        <div class="tc">
+                            <router-link to="story" class="f4 link w4 h4 pt4 mb2 dib tc shadow-1 fw6 tracked ttu br-100 bg-dark-gray washed-yellow ba b--white-40">
+                                Step <br/> <span class="f2">1</span>
+                            </router-link>
+                        </div>
+                        <div class="f3 navy">Choose your product type, category and sock.</div>
                     </div>
-                    <div class="w-100  bw2 bb b--orange"></div>
                     
-                    <div class="dt w-100 center">
-                        <div class="fl pa2 tc w-third pv4-ns pv2">
-                            <div class="tc gray">
-                                <i class="fas f1 fa-socks"></i>
-                            </div>
-                            <div class="tc pa2">
-                                <h1 class="f5 navy">1. Pick Your Subscription</h1>
-                            </div>
-                        </div>
-
-                        <div class="fl pa2 tc w-third pv4-ns pv2">
-                            <div class="tc gray">
-                                <i class="fas f1 fa-sliders-h"></i>
-                            </div>
-                            <div class="tc pa2">
-                                <h1 class="f5 navy">2. Customize</h1>
-                            </div>
-                        </div>
-
-                        <div class="fl tc w-third pv4-ns pv2">
-                            <div class="tc gray">
-                                <i class="fas f1 fa-box-open"></i>
-                            </div>
-                            <div class="tc pa2">
-                                <h1 class="f5 navy">3. Unwrap Awesome</h1>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 
             </div>

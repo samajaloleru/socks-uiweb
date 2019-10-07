@@ -4,6 +4,7 @@ import Router from "vue-router";
 import home from "@/components/home"
 import story from "@/components/story"
 import product from "@/components/product"
+import process from "@/components/process"
 import custom from "@/components/custom"
 import about from "@/components/about"
 import login from "@/components/login"
@@ -30,6 +31,11 @@ export const router =  new Router({
             name: "product",
             path: '/product',
             component: product,
+        },
+        {
+            name: "process",
+            path: '/process',
+            component: process,
         },
         {
             name: "custom",

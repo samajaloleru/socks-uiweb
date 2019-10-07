@@ -1,14 +1,14 @@
 <template>
-    <footer class="fl pa4 bg-navy washed-yellow w-100">
+    <footer class="fl pa4 bg-mid-gray white w-100">
         <div class="pb3 mw9 center">
             <div class="fl pb5 w-100 ">
                 <div class="fl w-20-l w-100 tc pt3 ">
-                    <p class="ttu b f2">follow</p>
+                    <p class="ttu dark-gray b f2">follow</p>
                     <div class="pa2">
-                        <i class="mr2 mr3-l f2 washed-yellow fab fa-facebook-f"></i> 
-                        <i class="mr2 mr3-l f2 washed-yellow fab fa-twitter"></i> 
-                        <i class="mr2 mr3-l f2 washed-yellow fab fa-linkedin-in"></i> 
-                        <i class="f2 washed-yellow fab fa-instagram"></i>
+                        <i class="mr2 mr3-l f2 white fab fa-facebook-f"></i> 
+                        <i class="mr2 mr3-l f2 white fab fa-twitter"></i> 
+                        <i class="mr2 mr3-l f2 white fab fa-linkedin-in"></i> 
+                        <i class="f2 white fab fa-instagram"></i>
                     </div>
                     <div class="fl pa3 tc w-100">
                         <img src="@/assets/img/footer.png"  class="h5">
@@ -18,49 +18,49 @@
                 </div>
                 <div class="fl w-20-l w-50 pa3 ">
                     <article class="tl f5 dib-ns w-100">
-                        <h4 class="f3 b">SHOP</h4>
-                        <p class="lh-solid ">SUBSCRIPTION</p>
-                        <p class="lh-solid ">GIFT SUBSCRIPTION </p>
-                        <p class="lh-solid ">BULK SUBSCRIPTION </p>
-                        <p class="lh-solid ">SHARK WEEK SOCKS</p>
-                        <p class="lh-solid ">CUSTOM SOCKS </p>                    
+                        <h4 class="f3 glow dark-gray b">SHOP</h4>
+                        <div class="pb1">SUBSCRIPTION</div>
+                        <div class="pv1">GIFT SUBSCRIPTION </div>
+                        <div class="pv1">BULK SUBSCRIPTION </div>
+                        <div class="pv1">SHARK WEEK SOCKS</div>
+                        <div class="pv1">CUSTOM SOCKS </div>                    
                     </article>
                     
                 </div>
                 <div class="fl w-20-l w-50 pa3">
                     <article class="tl f5 dib-ns w-100">
-                        <h4 class="f3 b">USEFUL STUFF</h4>
-                        <p class="lh-solid ">CONTACT US</p>
-                        <p class="lh-solid ">MY ACCOUNT</p>
-                        <p class="lh-solid ">FAQS</p>
-                        <p class="lh-solid ">OUR STORY</p>
-                        <p class="lh-solid ">OUR SOCKS</p>
-                        <p class="lh-solid ">OUR BLOG </p>                    
-                        <p class="lh-solid ">PRINTABLE GIFT RECEIPT</p>                    
+                        <h4 class="f3 glow dark-gray b">USEFUL STUFF</h4>
+                        <div class="pb1">CONTACT US</div>
+                        <div class="pv1">MY ACCOUNT</div>
+                        <div class="pv1">FAQS</div>
+                        <div class="pv1">OUR STORY</div>
+                        <div class="pv1">OUR SOCKS</div>
+                        <div class="pv1">OUR BLOG </div>                    
+                        <div class="pv1">PRINTABLE GIFT RECEIPT</div>                    
                     </article>
                 </div>
                 <div class="fl w-40-l w-100 pa3">
                     <div class="w-100" >
-                        <h4 class="f3 b">JOIN THE FAM</h4>
-                        <p class="f4  mb2 mt0">
+                        <h4 class="f3 glow dark-gray b">JOIN THE FAM</h4>
+                        <p class="f5 white mb2 mt0">
                             Sign up to get the latest on sales, new releases and more …
                         </p>
                         <div class="w-100 fl mt3">
                             <div class="fl w-50-ns w-50 ">
-                                <input class="fl w-100 f4 input-reset bn black bg-washed-yellow pa3 lh-solid" type="text" placeholder="First name"  v-model="contact.firstname" />
+                                <input class="fl w-100 f4 input-reset bn black bg-white-70 pa3 lh-solid" type="text" placeholder="First name"  v-model="contact.firstname" />
                             </div>
 
                             <div class="fl w-40-ns w-50 pl3">
-                                <input class="fl w-100 f4 input-reset bn black bg-washed-yellow pa3 lh-solid" type="text" placeholder="Last name"  v-model="contact.lastname" />
+                                <input class="fl w-100 f4 input-reset bn black bg-white-70 pa3 lh-solid" type="text" placeholder="Last name"  v-model="contact.lastname" />
                             </div>
                         </div>
                         <div class="w-100 fl mt3">
                             <div class="fl w-70-ns w-100">
-                                <input class="fl w-100 f4 input-reset bn black bg-washed-yellow pa3 lh-solid" type="email" placeholder="Enter Your Email Address"  v-model="contact.email" />
+                                <input class="fl w-100 f4 input-reset bn black bg-white-70 pa3 lh-solid" type="email" placeholder="Enter Your Email Address"  v-model="contact.email" />
                             </div>
                         </div>
                         <div class="fl w-100 pa2 mt3">
-                            <span @click="submitContact" class="f6 button-reset fl pa3 tc bn bg-mid-gray ttu tracked br3 hover-bg-dark-green washed-yellow b pointer">SIGN UP</span>
+                            <span @click="submitContact" class="f6 button-reset fw6 fl pa3 tc bn bg-moon-gray ttu tracked br3 hover-bg-dark-green white pointer">SIGN UP</span>
                         </div>
                         <p class="mt7">
                             © {{date}} FiT Socks &nbsp;
@@ -71,11 +71,11 @@
 
             
             <div class="pa3 tc w-100 center">
-                <div class="fl tc pa3 bg-orange navy w-100 f4 b tracked">
-                    Copyright © {{date}} FiT Socks &nbsp;  <span class="dn dib-l navy">|</span>
+                <div class="fl tc pa3 bg-dark-gray washed-yellow w-100 f4 b tracked">
+                    Copyright © {{date}} FiT Socks &nbsp;  <span class="dn dib-l white">|</span>
                     <div class="w-100 cf dn-l pv1"></div> 
-                    <router-link to="terms" class="navy link ph1">Terms and Conditions</router-link> -
-                    <router-link to="privacy" class="navy link ph1">Privacy Policy</router-link> 
+                    <router-link to="terms" class="white link ph1">Terms and Conditions</router-link> -
+                    <router-link to="privacy" class="white link ph1">Privacy Policy</router-link> 
                 </div>
             </div>
         </div>

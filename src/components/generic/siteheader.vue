@@ -9,6 +9,7 @@
           <router-link to="/"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Home</router-link>
           <router-link to="/story"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Our Story</router-link>
           <router-link to="/product"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Products</router-link>
+          <router-link to="/process"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Our Process</router-link>
           <router-link to="/blog"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Blog</router-link>
           <router-link to="/custom"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Custom Socks</router-link>
         </nav>
@@ -49,6 +50,7 @@ const submenu = [
     { to: "/", icon: "", title:"Home" },
     { to: "/story", icon: "", title: "Our Story" },
     { to: "/product", icon: "", title: "Products" },
+    { to: "/process", icon: "", title: "Our Process" },
     { to: "/blog", icon: "", title: "Blog" },
     { to: "/custom", icon: "", title: "Custom Socks" },
 
