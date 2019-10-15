@@ -1,17 +1,26 @@
 <template>
   <section class="fl w-100 bg-dark-red">
     <siteheader/>
-    <carousel class="cf w-100 h5 bg-red">
-      <slide class="fl w-100">
-        Slide 1 Content
-      </slide>
-      <slide class="fl w-100">
-        Slide 2 Content
-      </slide>
-      
-    </carousel>
+    <div class="cf">
+      <carousel>
+        <carousel-slide>
+          <div class="">
+            <img src="@/assets/img/bg1.jpg" class="w-100" />
+            my English
+          </div>
+        </carousel-slide>
+        <carousel-slide>
+          <img src="@/assets/img/bg2.jpg" class=" w-100" />
+          my igbo
+        </carousel-slide>
+        <carousel-slide>
+          <img src="@/assets/img/bg3.jpg" class=" w-100" />
+          my yourba
+        </carousel-slide>
+      </carousel>
+    </div>
 
-    <div class="cf ph3 ph5-ns center tc pv5">
+    <div class="dt w-100 ph3 ph5-ns center tc pv5">
         <h2 class="f2 orange mt0 mb3">OUR SOCKS</h2>
         <article class="pa2">
             <p class="f4 mid-gray lh-copy measure center">
@@ -152,14 +161,15 @@ import { HTTP } from "@/common";
 import { checkRedirect } from "@/common";
 import siteheader from "@/components/generic/siteheader";
 import sitefooter from "@/components/sitefooter";
-import { Carousel, Slide } from 'vue-carousel';
+import carousel from "@/components/carousel/carousel";
+import carouselSlide from "@/components/carousel/carouselSlide";
 
 export default {
   components: {
     siteheader,
     sitefooter,
-    Carousel, 
-    Slide
+    carousel,
+    carouselSlide
   },
   data() {
     return {
