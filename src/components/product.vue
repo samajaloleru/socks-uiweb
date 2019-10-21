@@ -1,24 +1,16 @@
 <template>
   <section class="fl w-100 bg-dark-red">
     <siteheader/>
-    <div class="cf">
-      <carousel>
-        <carousel-slide>
-          <div class="">
-            <img src="@/assets/img/bg1.jpg" class="w-100" />
-            my English
-          </div>
-        </carousel-slide>
-        <carousel-slide>
-          <img src="@/assets/img/bg2.jpg" class=" w-100" />
-          my igbo
-        </carousel-slide>
-        <carousel-slide>
-          <img src="@/assets/img/bg3.jpg" class=" w-100" />
-          my yourba
-        </carousel-slide>
-      </carousel>
-    </div>
+    <section class="center bg-washed-yellow min-vh-100 pb5 fl w-100">
+      <section class=" mw9 tc pa2 dark-gray flex flex-row justify-center">
+        <article class="pa4 pa2-m">
+          <h1 class="f2-m pt0 b-ns ">Where We Meet -- Our Social Area & Play Space</h1>
+        </article>
+      </section>
+      <div class="mw8 vh-75 tc center pt1 dt w-100">
+        <gallery :images="imagelist" delay="2" class=""></gallery>
+      </div>
+    </section>
 
     <div class="dt w-100 ph3 ph5-ns center tc pv5">
         <h2 class="f2 orange mt0 mb3">OUR SOCKS</h2>
@@ -159,17 +151,15 @@
 <script type="text/javascript">
 import { HTTP } from "@/common";
 import { checkRedirect } from "@/common";
+import gallery from "@/components/generic/gallery"
 import siteheader from "@/components/generic/siteheader";
 import sitefooter from "@/components/sitefooter";
-import carousel from "@/components/carousel/carousel";
-import carouselSlide from "@/components/carousel/carouselSlide";
 
 export default {
   components: {
     siteheader,
     sitefooter,
-    carousel,
-    carouselSlide
+    gallery
   },
   data() {
     return {
@@ -179,6 +169,14 @@ export default {
       password: "",
       IsCompany: true,
       hoverMember:false,
+      imagelist:[
+        "assets/background1.png",
+        "assets/background2.png",
+        "assets/background3.png",
+        "assets/background4.png",
+        "assets/background5.png",
+        "assets/background6.png",
+      ],
     };
   },
   methods: {
