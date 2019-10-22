@@ -330,20 +330,20 @@ input[type=datetime-local] {
 input, textarea { background-color: rgba(0,0,0,0.2) ; }
 
 .signin::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    /* color: rgb(196, 132, 132);
-    opacity: 1; */
-    /* Firefox */
+    /*Chrome, Firefox, Opera, Safari 10.1+8*/
+    color: white;
+    opacity: 1;
+    /*Firefox*/
 }
 
 .signin:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    /* color: rgb(196, 132, 132); */
+    /*Internet Explorer 10-11*/
+    color: white;
 }
 
 .signin::-ms-input-placeholder {
-    /* Microsoft Edge */
-    /* color: rgb(196, 132, 132); */
+    /*Microsoft Edge*/
+    color: white;
 }
 
 .button {
