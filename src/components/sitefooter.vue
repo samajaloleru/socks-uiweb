@@ -1,9 +1,9 @@
 <template>
-    <footer class="dt v-mid pa4 bg-navy white vh-50 w-100">
+    <footer class="dt v-mid pa4-l bg-dark-gray white vh-50 w-100">
         <div class="cf mw9 mb5 ph2 center">
             <div class="dt bb pb3 w-100">
                 <div class="dtc v-mid">
-                    <img src="@/assets/img/logo.png"  class="w5">
+                    <img src="@/assets/img/logo.png"  class="w5-l w4">
                 </div>
                 <div class="dtc fr v-mid">
                     <img src="@/assets/img/nigeria.png"  class="w3">

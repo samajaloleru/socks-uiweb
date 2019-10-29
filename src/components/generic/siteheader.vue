@@ -1,17 +1,17 @@
 <template>
     <header class="">
-      <nav class="bg-dark-gray dn dib-l w-100 tc pv2">
+      <nav class="bg-gray dn dib-l w-100 tc pv2">
         <div class="dib ">
-          <img src="@/assets/img/logo.png" class="dib h4 " >
+          <img src="@/assets/img/logo.png" class="dib h4" >
 
         </div>
-        <nav class="tc mw8 center mt3">
-          <router-link to="/"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Home</router-link>
-          <router-link to="/story"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Our Story</router-link>
-          <router-link to="/product"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Products</router-link>
-          <router-link to="/process"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Our Process</router-link>
-          <router-link to="/blog"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Blog</router-link>
-          <router-link to="/custom"  class="no-underline dim light-gray b f6 f3-l dib pa3 ph4-l" >Custom Socks</router-link>
+        <nav class="tc mw8 center mt1">
+          <router-link to="/"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Home</router-link>
+          <router-link to="/story"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Our Story</router-link>
+          <router-link to="/product"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Products</router-link>
+          <router-link to="/process"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Our Process</router-link>
+          <router-link to="/blog"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Blog</router-link>
+          <router-link to="/custom"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Custom Socks</router-link>
         </nav>
       </nav>
 

@@ -23,9 +23,9 @@ module.exports = {
 @import "assets/css/fontawesomepro.css";
 @import "assets/css/custom.min.css";
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 /* body {font-family: 'Titillium Web', sans-serif;} */
 </style>
