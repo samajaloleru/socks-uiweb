@@ -1,35 +1,35 @@
 <template>
     <header class="">
-      <nav class="bg-gray dn dib-l w-100 tc pv2">
+      <nav class="bg-mid-gray dn dib-l w-100 tc pv2">
         <div class="dib ">
           <img src="@/assets/img/logo.png" class="dib h4" >
 
         </div>
         <nav class="tc mw8 center mt1">
-          <router-link to="/"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Home</router-link>
-          <router-link to="/story"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Our Story</router-link>
-          <router-link to="/product"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Products</router-link>
-          <router-link to="/process"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Our Process</router-link>
-          <router-link to="/blog"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Blog</router-link>
-          <router-link to="/custom"  class="no-underline dim dark-gray b f6 f3-l dib pa3 ph4-l" >Custom Socks</router-link>
+          <router-link to="/"  class="no-underline dim silver b f6 f3-l dib pa3 ph4-l" >Home</router-link>
+          <router-link to="/story"  class="no-underline dim silver b f6 f3-l dib pa3 ph4-l" >Our Story</router-link>
+          <router-link to="/product"  class="no-underline dim silver b f6 f3-l dib pa3 ph4-l" >Products</router-link>
+          <router-link to="/process"  class="no-underline dim silver b f6 f3-l dib pa3 ph4-l" >Our Process</router-link>
+          <router-link to="/blog"  class="no-underline dim silver b f6 f3-l dib pa3 ph4-l" >Blog</router-link>
+          <router-link to="/custom"  class="no-underline dim silver b f6 f3-l dib pa3 ph4-l" >Custom Socks</router-link>
         </nav>
       </nav>
 
-      <nav class="w-100 center dn-l dib cf f6 f5-ns inline-flex items-center fw5 h3 " :class="bgMenu" >
-            <nav class="dt w-100 border-box ph3-l fixed bg-dark-gray">
+      <nav class="w-100 center dn-l dib cf f6 f5-ns inline-flex items-center fw5 h2" :class="bgMenu" >
+            <nav class="dt w-100 border-box ph3-l bg-dark-gray">
                 <div class="dtc v-mid w-70  tl pa3">
-                    <router-link to="/" class="dtc v-mid mid-gray link dim" title="Home">
-                        <img src="@/assets/img/logo.png" class="dib h3 " alt="DTCoop">
+                    <router-link to="/" class="dtc v-mid mid-gray" title="Home">
+                        <img src="@/assets/img/logo.png" class="dib h2 pt1" alt="DTCoop">
                     </router-link>
                 </div>
                 <div class="dtc v-mid w-30 tr pa3">
                     <span class="dn-l dib" @click="toggleMenu" >
-                        <i class="fa fa-bars f2 tr washed-yellow"></i>
+                        <i class="fa fa-bars f2 tr gray"></i>
                     </span>
                 </div>
             </nav>
         </nav>
-      <div class="top-0 right-0 vh-100 dib dn-l bg-black-10 fixed w-100 z-max" :class="{'slideInRight':lShow, 'slideOutRight':!lShow}" @click="toggleMenu">
+      <div class="top-0 right-0 vh-100 dib dn-l bg-black-10 fixed w-100" :class="{'slideInRight':lShow, 'slideOutRight':!lShow}" @click="toggleMenu">
           <nav class="vh-100 bg-gray fr">
               <ul class="list pt0 ph0 pr4 mt0 overflow-y-scroll dn-l w5" style="height:100vh">
                   <li class="ph2 dim pointer tr right-2" >
