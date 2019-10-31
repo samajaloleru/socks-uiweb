@@ -3,7 +3,7 @@
     <siteheader />
 
     <div class="cf w-100 vh-50 ">
-      <slider :images="imagelist" delay="2" class=" pt6 pl6">
+      <slider :images="imagelist" delay="2" class="dt pt6-l pl6-l pt2 pl2">
         <template>
           <div class="dtc v-mid">
             <div class="fl w-100 h2-m"></div>
