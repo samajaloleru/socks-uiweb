@@ -1,31 +1,33 @@
 <template>
   <section class>
     <siteheader />
-    <div class="fl h3 dn-l dib w-100"></div>
-    <div class="cf w-100 cover" :style="{backgroundImage:'url('+require('@/assets/img/background5.png')+')'}">
-      <div class="dt vh-50 w-70 center">
-        <div class="dtc v-mid">
-          <div class="fl w-100 h2-m"></div>
-          <h1 class="f3 f2-m f1-l ttu mv0 b washed-yellow">
-            YOUR NEW FAVORITE
-            <br />SOCK SUBSCRIPTION.
-          </h1>
-          <p class="white f3-ns f4">Free Shipping Worldwide. Cancel Anytime.</p>
 
-          <div class="mw6 cf pt2 pb2">
-            <div class="fl pt2 w-50-ns">
-              <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-mid-gray white ba b--white-40">
-                Become A Member
-              </router-link>
-            </div>
-            <div class="fl w-50-ns pt2">
-              <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-mid-gray white ba b--white-40">
-                Gift A Subscription
-              </router-link>
+    <div class="cf w-100 vh-50 ">
+      <slider :images="imagelist" delay="2" class=" pt6 pl6">
+        <template>
+          <div class="dtc v-mid">
+            <div class="fl w-100 h2-m"></div>
+            <h1 class="f3 f2-m f1-l ttu mv0 b washed-yellow">
+              YOUR NEW FAVORITE
+              <br />SOCK SUBSCRIPTION.
+            </h1>
+            <p class="white f3-ns f4">Free Shipping Worldwide. Cancel Anytime.</p>
+
+            <div class="mw6 cf pt2 pb2">
+              <div class="fl pt2 w-50-ns">
+                <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-mid-gray white ba b--white-40">
+                  Become A Member
+                </router-link>
+              </div>
+              <div class="fl w-50-ns pt2">
+                <router-link to="story" class="f6 link ph2 pv3 mb2 dib shadow-1 fw6 tracked ttu br3 bg-mid-gray white ba b--white-40">
+                  Gift A Subscription
+                </router-link>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        </template>
+      </slider>
     </div>
 
     <div class="cf mw8 center tc pv3">
@@ -157,13 +159,16 @@
 <script type="text/javascript">
 import { HTTP } from "@/common";
 import { checkRedirect } from "@/common";
+import slider from "@/components/generic/slider"
 import siteheader from "@/components/generic/siteheader";
 import sitefooter from "@/components/sitefooter";
 
 export default {
   components: {
     siteheader,
-    sitefooter
+    sitefooter,
+    slider
+    
   },
   data() {
     return {
@@ -172,7 +177,12 @@ export default {
       username: "",
       password: "",
       IsCompany: true,
-      hoverMember: false
+      hoverMember: false,
+      imagelist:[
+        "assets/background6.png",
+        "assets/background2.png",
+        "assets/background5.png",
+      ],
     };
   },
   methods: {
