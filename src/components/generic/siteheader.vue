@@ -15,31 +15,29 @@
         </nav>
       </nav>
 
-      <nav class="w-100 center dn-l dib cf f6 f5-ns inline-flex items-center fw5 h2" :class="bgMenu" >
-            <nav class="dt w-100 border-box ph3-l bg-dark-gray">
-                <div class="dtc v-mid w-70  tl pa3">
-                    <router-link to="/" class="dtc v-mid mid-gray" title="Home">
-                        <img src="@/assets/img/logo.png" class="dib h2 pt1" alt="DTCoop">
-                    </router-link>
-                </div>
-                <div class="dtc v-mid w-30 tr pa3">
-                    <span class="dn-l dib" @click="toggleMenu" >
-                        <i class="fa fa-bars f2 tr gray"></i>
-                    </span>
-                </div>
-            </nav>
+        <nav class="dt dn-l dib w-100 border-box ph3-l bg-dark-gray">
+          <div class="dtc v-mid w-70  tl pa3">
+            <router-link to="/" class="dtc v-mid mid-gray" title="Home">
+              <img src="@/assets/img/logo.png" class="dib h2 pt1" alt="DTCoop">
+            </router-link>
+          </div>
+          <div class="dtc v-mid w-30 tr pa3">
+            <span class="dn-l dib" @click="toggleMenu" >
+              <i class="fa fa-bars f2 tr gray"></i>
+            </span>
+          </div>
         </nav>
       <div class="top-0 right-0 vh-100 dib dn-l bg-black-10 fixed w-100" :class="{'slideInRight':lShow, 'slideOutRight':!lShow}" @click="toggleMenu">
-          <nav class="vh-100 bg-gray fr">
-              <ul class="list pt0 ph0 pr4 mt0 overflow-y-scroll dn-l w5" style="height:100vh">
-                  <li class="ph2 dim pointer tr right-2" >
-                      <p class="h3 f7 inline-flex items-center pr4 mv0 dark-gray">
-                          <i class="fa fa-sign-out-alt f2"></i>
-                      </p>
-                  </li>
-                  <menulistitem :to="sub.to" :icon="sub.icon" :title="sub.title" v-for="(sub, index) in submenu" :key="index" />
-              </ul>
-          </nav>
+        <nav class="vh-100 bg-gray fr">
+          <ul class="list pt0 ph0 pr4 mt0 overflow-y-scroll dn-l w5" style="height:100vh">
+            <li class="ph2 dim pointer tr right-2" >
+              <p class="h3 f7 inline-flex items-center pr4 mv0 dark-gray">
+                <i class="fa fa-sign-out-alt f2"></i>
+              </p>
+            </li>
+            <menulistitem :to="sub.to" :icon="sub.icon" :title="sub.title" v-for="(sub, index) in submenu" :key="index" />
+          </ul>
+        </nav>
       </div>
     </header>
 </template>

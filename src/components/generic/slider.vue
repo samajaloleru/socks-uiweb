@@ -1,7 +1,7 @@
 <template> 
-    <div class="w-100 bg-black-10 slider" :style="{'height':'100%','transition':'background-image '+delay+'s ease','background-image': 'url('+image+')'}" > 
+  <div class="bg-black slider " :style="{'transition':'background-image '+delay+'s ease','background-image': 'url('+image+')'}" >
     <slot></slot>
-    </div>
+  </div>
 </template>
 <script type="text/javascript">
   export default { 
